@@ -348,6 +348,7 @@ section {
   }
   .web-nav-button{
     display: flex;
+    cursor: pointer;
   }
   .web-nav li{
     list-style: none;
@@ -400,6 +401,7 @@ section {
     height: 500px;
   }
   .gallery{
+    
     width: 100vw;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -407,6 +409,11 @@ section {
   }
   .gallery img{
     width: 25vw;
+    filter: brightness(0.5);
+  }
+  .gallery img:hover{
+    filter: brightness(1);
+    cursor: pointer;
   }
   .cities-container{
     margin: 40px auto;
@@ -436,6 +443,12 @@ section {
     font-size: small;
     margin:5px;
   }
+  #btn-sign-up-now:hover{
+    cursor: pointer;
+  }
+  #btn-sign-up-now-empty-back{
+    cursor: pointer;
+  }
   .contact{
     display: flex;
     justify-content: center;
@@ -445,6 +458,12 @@ section {
     margin: 15px auto;
     display: flex;
     justify-content: center;
+  }
+  .form-container input,.form-container label {
+    color: grey;
+  }
+  #btn-sent-it{
+    cursor: pointer;
   }
   .link li:hover {
     color: grey;

@@ -348,7 +348,11 @@ section {
   }
   .web-nav-button{
     display: flex;
+    
+  }
+  .web-nav-button li:hover{
     cursor: pointer;
+    border-bottom: 2px solid orange;
   }
   .web-nav li{
     list-style: none;
@@ -362,6 +366,7 @@ section {
     width: auto;
     padding:5px 15px;
     height: auto;
+    cursor: pointer;
   }
   .introInfo{
     width: 90vw;
